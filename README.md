@@ -5,14 +5,19 @@ The data were imported, and loan status was identified as the target variable.  
 
 A confusion matrix and a classification report were generated to examine the results to determine whether the model is appropriate for use in predicting healthy and high-risk loans.  Some of the results are shown below
 
-    Precision for high-risk loans: 87% of loan applications identified as high-risk are actually high-risk.  13% (86 out of 679) of loans identifed as high-risk were not high-risk.  This is the weakest part of the model.
+    Precision for high-risk loans: 87% of loan applications identified as high-risk are actually high-risk.  13% (86 out of 679) of 
+    loans identifed as high-risk were not high-risk.  This is the weakest part of the model.
 
-    Recall for high-risk loans: 95% of applications that should be identifed as high-risk were identified correctly with this model.  The testing dataset contained 625 high-risk applications, and 593 of these were flagged as high risk by the model.  Only 5% (32 out of 625) were not flagged as high risk.
+    Recall for high-risk loans: 95% of applications that should be identifed as high-risk were identified correctly with this model.  
+    The testing dataset contained 625 high-risk applications, and 593 of these were flagged as high risk by the model.  
+    Only 5% (32 out of 625) were not flagged as high risk.
 
-    Precision for healthy loans: Greater than 99.5% of loan applications that are actually good risks are identified by the model as healthy 
-    (18,673 out of 18,759).  There were 86 loan applications that should have been identified as healthy that were not.  
+    Precision for healthy loans: Greater than 99.5% of loan applications that are actually good risks are identified by the model 
+    as healthy (18,673 out of 18,759).  There were 86 loan applications that should have been identified as healthy that were not.  
 
-    Recall for healthy loans: Greater than 99.8% of loan application that are identified as healthy and likely to be approved were actually healthy (18,673 out of 18,705) .  Only 32 high-risk loan applications out of the 18,705 applications predicted to be good risks slipped by the algorithm.  
+    Recall for healthy loans: Greater than 99.8% of loan application that are identified as healthy and likely to be approved were 
+    actually healthy (18,673 out of 18,705) .  Only 32 high-risk loan applications out of the 18,705 applications predicted to be 
+    good risks slipped by the algorithm.  
 
     Accuracy:  The overall accuracy is 99%.  Of the 19,384 loan applications in the testing dataset, 19,266 were correctly classified.
 
