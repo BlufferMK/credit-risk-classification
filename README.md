@@ -17,7 +17,12 @@ A confusion matrix and a classification report were generated to examine the res
 
     Recall for healthy loans: Greater than 99.8% of loan application that are identified as healthy and likely to be approved were 
     actually healthy (18,673 out of 18,705) .  Only 32 high-risk loan applications out of the 18,705 applications predicted to be 
-    good risks slipped by the algorithm.  
+    good risks slipped by the algorithm.
+      
+![confusion](image-1.png)
+
+![classification](image.png)
+
 
     Accuracy:  The overall accuracy is 99%.  Of the 19,384 loan applications in the testing dataset, 19,266 were correctly classified.
 
